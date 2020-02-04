@@ -1,0 +1,160 @@
+#flex-block {
+    display: flex;
+}
+
+html, body {
+    height: 100vh;
+    font-family: sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+svg {
+    displ
+}
+
+
+
+#gauche { 
+    width: 50%;
+    height: 100vh;
+    float: left;
+    background-image: url(../images/student.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    
+#droite {
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+footer {
+    display: flex;
+    align-self: flex-end;
+}
+
+.lien {
+    padding: 20px;
+}
+
+footer {
+    color: white;
+}
+
+h1, h4, h3, #part1 {
+    color: white;
+}
+
+h1 {
+    margin: 40px 90px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+h4 {
+    float: right;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 20px 10px 0;
+    align-content: right;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    margin: -15px 0;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    font-weight: bolder;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+h5 {
+    margin: 0px;
+    margin-top: 27px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+#side {
+    font-size: 15px;
+    font-style: italic;
+    flex-direction: center;
+}
+
+#part1 {
+    float: right;
+    padding: 0 20px 0 350px;
+    text-align: justify;
+}
+
+#news {
+    background-color: #98DC62;
+    display: inline;
+    padding: 5px;
+    margin: 10px;
+}
+
+a {
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: black
+}
+
+.team {
+    background-color: #DC5E53;
+    display: inline;
+    padding: 5px;
+    margin: 10px;
+}
+
+#work {
+    background-color: #0766F0;
+    display: inline;
+    padding: 5px;
+    margin: 10px;
+}
+
+article {
+    border: solid 1px lightgrey;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    text-align: left;
+    padding: 60px;
+    margin: -10px 0 10px 0;
+}
+
+img {
+    width: 22px;
+}
+
+
+strong {
+    font-weight: bolder;
+}
+
+.date {
+    font-size: 15px;
+    color: gray;
+}
+
